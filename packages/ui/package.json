@@ -5,19 +5,28 @@
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
+<<<<<<< HEAD
     "./code": "./src/code.tsx",
     "./appbar": "./src/Appbar.tsx",
     "./center": "./src/Center.tsx",
     "./select": "./src/Select.tsx",
     "./textinput": "./src/TextInput.tsx"
+=======
+    "./code": "./src/code.tsx"
+>>>>>>> 0e4a549 (feat(create-turbo): create basic)
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+=======
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+>>>>>>> 0e4a549 (feat(create-turbo): create basic)
     "@turbo/gen": "^1.12.4",
     "@types/node": "^20.11.24",
     "@types/eslint": "^8.56.5",

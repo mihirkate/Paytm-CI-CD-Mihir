@@ -4,6 +4,7 @@ import { ReactNode } from "react";
 
 interface ButtonProps {
   children: ReactNode;
+<<<<<<< HEAD
   onClick: () => void;
 }
 
@@ -13,5 +14,19 @@ export const Button = ({ onClick, children }: ButtonProps) => {
       {children}
     </button>
 
+=======
+  className?: string;
+  appName: string;
+}
+
+export const Button = ({ children, className, appName }: ButtonProps) => {
+  return (
+    <button
+      className={className}
+      onClick={() => alert(`Hello from your ${appName} app!`)}
+    >
+      {children}
+    </button>
+>>>>>>> 0e4a549 (feat(create-turbo): create basic)
   );
 };

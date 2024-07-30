@@ -1,15 +1,10 @@
 {
-<<<<<<< HEAD
   "name": "week-18",
-=======
-  "name": "my-turborepo",
->>>>>>> 0e4a549 (feat(create-turbo): create basic)
   "private": true,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-<<<<<<< HEAD
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "db:generate": "cd packages/db && npx prisma generate && cd ../..",
     "start-user-app": "cd ./apps/user-app && npm run start"
@@ -29,18 +24,4 @@
     "apps/*",
     "packages/*"
   ]
-=======
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "prettier": "^3.2.5",
-    "turbo": "^1.12.4"
-  },
-  "packageManager": "pnpm@8.9.0",
-  "engines": {
-    "node": ">=18"
-  }
->>>>>>> 0e4a549 (feat(create-turbo): create basic)
 }
